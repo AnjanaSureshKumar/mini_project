@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+/* Make entire page use light purple background */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E1D8FF;
+  font-family: 'Lora', serif;
+}
+
+/* Make main content consistent */
+.main-content {
+  background-color: #DDFFF7;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Optional: remove any global card background if you're using Bootstrap */
+.card {
+  background-color: #E1D8FF;
+}

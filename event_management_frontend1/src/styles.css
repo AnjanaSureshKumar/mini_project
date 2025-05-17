@@ -1,0 +1,71 @@
+.gradient-card {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+  }
+  /* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Form Container Styling */
+.container {
+  max-width: 600px;
+}
+
+/* Form Header */
+h2 {
+  font-size: 2rem;
+  color: #007bff; /* Primary Color */
+}
+
+/* Input Styling */
+.form-control {
+  border-radius: 25px;
+  border: 1px solid #007bff;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+button.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+button.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Background Styling */
+.bg-light {
+  background-color: #f1f5f8;
+}
+
+.bg-white {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
